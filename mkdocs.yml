@@ -1,11 +1,18 @@
 site_name: Rackio
 nav:
   - Home: index.md
+  - Getting Started: cli.md
   - Data Repository: data.md
   - Controls and Rules: control.md
   - State Machine: state.md
   - Continous Tasks: task.md
+  - Logging: logging.md
   - Alarms: alarm.md
+  - Observers: observer.md
+  - Scheduler: scheduler.md
+  - Events: event.md
+  - Admin: admin.md
+
 theme: readthedocs
 repo_url: http://github.com/rack-io/rackio-framework
 site_description: 'Documentation for Rackio, the Python Framework for Automation and Control.'
