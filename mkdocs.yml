@@ -1,0 +1,11 @@
+site_name: Rackio
+nav:
+  - Home: index.md
+  - Data Repository: data.md
+  - Controls and Rules: control.md
+  - State Machine: state.md
+  - Continous Tasks: task.md
+  - Alarms: alarm.md
+theme: readthedocs
+repo_url: http://github.com/rack-io/rackio-framework
+site_description: 'Documentation for Rackio, the Python Framework for Automation and Control.'
