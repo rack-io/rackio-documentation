@@ -11,7 +11,7 @@
 ## Rackio Framework
 Rackio is a modern Python Framework for microboard automation and control applications development, it uses a declarative syntax to set your own applications in a bit.
 
-It was developed to bring automation and control engineers the capability of developing high end industrial solutions. Inspired by [Django](https://google.com), [Flask](https://google.com) and [Scrapy](https://google.com), Rackio comes with built-in batteries to make common operations and tasks in the automation field.
+It was developed to bring automation and control engineers the capability of developing high end industrial solutions. Inspired by [Django](https://www.djangoproject.com), [Flask](https://palletsprojects.com/p/flask/) and [Scrapy](https://scrapy.org/), Rackio comes with built-in batteries to make common operations and tasks in the automation field.
 You can fork the source right on [Github-Rackio Framework](https://github.com/rack-io/rackio-framework)
 ---
 
@@ -29,6 +29,8 @@ With Rackio you can build complex and advanced automation and control architectu
 ## So, where is the HMI?
 
 Rackio doesn't come with a default HMI, since it is a server application framework, it comes with an API so you can connect your custom HMI developed in any technology you want. On the other hand, Rackio comes with an Admin Web Interface (inspired by Django), so you can monitor and set Tags value, Trends, Alarms, Events and much more.
+
+---
 
 ## Requirements
 
@@ -67,44 +69,6 @@ Each of these features are presented as declarative classes so you can define ho
 
 ---
 
-## Custom Observers
-
-Most of the core functionalities of Rackio are based on the Observer Pattern, in which tags are observed for new changes, after these chages some operations are made. You can define your own Custom Oberserver functions, in which it is required to be executed after a new value for a tag has occured, this can be used for those tasks or commands that the Rackio math parser can not handle, like some Neural Network evaluation.
-
----
-
-## Trend based Logging
-
-Some variables or tags are required to be monitored in time, with Rackio can perform some automatic data logging for trends and historical display, you can set the tags and their frequency and Rackio will save these in a local database.
-
----
-
-## Automatic Data Logging
-
-<div class="admonition note">
-    <p class="first admonition-title">Note</p>
-    <p class="last">
-        This feature is under development process
-    </p>
-</div>
-
-Tag values can be save to a local database for the next restart of the application in this way you can preserve the state of your automation applications.
-
----
-
-## Event History
-
-<div class="admonition note">
-    <p class="first admonition-title">Note</p>
-    <p class="last">
-        This feature is under development process
-    </p>
-</div>
-
-Using the same local database, Rackio holds a register of all of the events occured in the application, you can use this feature to add custom events to the history.
-
----
-
 ## RESTful API
 
 <div class="admonition note">
@@ -115,12 +79,6 @@ Using the same local database, Rackio holds a register of all of the events occu
 </div>
 
 Rackio is focuses on new trend technologies and promotes web development for automation applications, all of the Rackio Features can be access by using the RESTful API, being Rackio a service or backend application, you can define your custom views or HMI with other front-end technologies.
-
----
-
-## Web Based Admin
-
-Rackio comes with its own basic web admin system, in which you can monitor tags values, controls definitions, state-machine transitions, trends, logged data and alarms.
 
 ---
 
