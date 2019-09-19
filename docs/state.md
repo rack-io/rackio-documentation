@@ -6,7 +6,7 @@ According to the Wikipedia, a state machine has the following definition:
 >
 > -- [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine)
 
-State Machines are widely used in the automation field, this is a concept in which you can define a system that is continously transitioning between states in order to perform some tasks or operations, in a automated or semiautomated way.
+State Machines are widely used in the automation field, this is a concept in which you can define a system that is continuously transitioning between states in order to perform some tasks or operations, in a automated or semiautomated way.
 
 With Rackio you can use a declarative approach to define your custom state machines.
 

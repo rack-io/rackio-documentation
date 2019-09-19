@@ -22,7 +22,7 @@ So in order to define a `Control` or a `Rule`, we must define some conditions an
 
 ## Conditions
 
-You can set some conditions based on the tag values and between tag values, typical comparison expressions like `>=`, `==` or even use logical expresions like `and` and `or`.
+You can set some conditions based on the tag values and between tag values, typical comparison expressions like `>=`, `==` or even use logical expressions like `and` and `or`.
 
 ### Comparison Operators
 
@@ -53,7 +53,7 @@ condition4 = AndCondition([condition1, condition2])
 
 ## Actions
 
-Actions are the final step once a condition from a control or rule is met, you can choose between `ValueAction` or a `MathAction`. the first one takes a defined value and assigns to a defined tag, and the last one, can perform a mathematical expresion on a tag value, this mathematical expression can contain other tags names and some math functions like `exp` or `sin`.
+Actions are the final step once a condition from a control or rule is met, you can choose between `ValueAction` or a `MathAction`. the first one takes a defined value and assigns to a defined tag, and the last one, can perform a mathematical expression on a tag value, this mathematical expression can contain other tags names and some math functions like `exp` or `sin`.
 
 ```python
 from rackio.controls import ValueAction, MathAction
@@ -88,6 +88,6 @@ app.append_rule(rule1)
 
 ```
 
-Once you execute your app, the ControlWorker will handle all defined controls and rules in set time interval of 0.1 seconds.
+Once you execute your "app", the ControlWorker will handle all defined controls and rules in set time interval of 0.1 seconds.
 
 ---

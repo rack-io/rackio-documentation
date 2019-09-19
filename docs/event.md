@@ -7,6 +7,6 @@
     </p>
 </div>
 
-Using the same local database, Rackio holds a register of all of the events occured in the application, you can use this feature to add custom events to the history.
+Using the same local database, Rackio holds a register of all of the events occurred in the application, you can use this feature to add custom events to the history.
 
 ---

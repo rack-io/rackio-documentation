@@ -24,7 +24,7 @@ And this way Rackio was born, as a Python Framework, a set of declarative constr
 
 ## What can you do with Rackio?
 
-With Rackio you can build complex and advanced automation and control architectures deployable in any pc-based controller that can run Python. Rackio enables the capability of defining sytems and subsystems that can perform tasks and operation in concurrency, appropiate features can handle integration within these systems, so you can deliver high end solutions to your automation and control problems.
+With Rackio you can build complex and advanced automation and control architectures deployable in any pc-based controller that can run Python. Rackio enables the capability of defining systems and subsystems that can perform tasks and operation in concurrency, appropriate features can handle integration within these systems, so you can deliver high end solutions to your automation and control problems.
 
 ## So, where is the HMI?
 
@@ -50,14 +50,14 @@ pip install Rackio
 ## Built-In Batteries
 
 Rackio comes with some built-in features that .
-Rackio comes with some out of the box that features let you start creating rapid and fast coding prototypes and Rackio ppplications, here is a list of these features:
+Rackio comes with some out of the box that features let you start creating rapid and fast coding prototypes and Rackio applications, here is a list of these features:
 
 * Tag based engine
 * Custom Models Definitions
 * Controls and Math Operations
 * State Machine Definitions
 * Custom Observers
-* Custom Continous Tasks
+* Custom Continuous Tasks
 * Trend based Logging
 * Automatic Data Logging 
 * Event History
