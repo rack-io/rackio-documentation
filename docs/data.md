@@ -10,6 +10,6 @@ The tags data types can be set between *Float*, *Integer*, *Boolean* or *String*
 
 ## Custom Models
 
-High end applications require data types more complex that the default data types. With Rackio you can define your own custom models for tag definitions in wich attributes can be a custom combination of the default data types. In this way you can access custom tags by name or access custom tag properties, e.g. `Controller1.Set_Point` by using dot notation.
+High end applications require data types more complex that the default data types. With Rackio you can define your own custom models for tag definitions in which attributes can be a custom combination of the default data types. In this way you can access custom tags by name or access custom tag properties, e.g. `Controller1.Set_Point` by using dot notation.
 
 ---
