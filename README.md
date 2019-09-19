@@ -8,7 +8,7 @@ This is the main repository for the Rackio Framework, it is written with Markdow
 In order to view this documentation in your browser to install MkDocs
 
 ```
-pip install mkdocs
+pip install -r requirements.txt
 ```
 
 # Execute
