@@ -25,7 +25,7 @@ mkdocs serve
 
 And open your browser at the URL [http://127.0.0.1:8000](http://127.0.0.1:8000) and you can get a look like the following capture:
 
-[![Documentation Screenshot](https://raw.githubusercontent.com/macagua/rackio-documentation/master/screenshot.png)](https://raw.githubusercontent.com/macagua/rackio-documentation/master/screenshot.png)
+[![Documentation Screenshot](https://raw.githubusercontent.com/rack-io/rackio-documentation/master/screenshot.png)](https://raw.githubusercontent.com/rack-io/rackio-documentation/master/screenshot.png)
 
 
 # See on the ReadTheDoc
