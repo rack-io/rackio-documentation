@@ -1,7 +1,8 @@
 # rackio-documentation
 
-This is the main repository for the Rackio Framework Documentation, 
-it is written with Markdown and is deployed with MkDocs and uses 
+This is the main repository for the **Rackio Framework Documentation**, 
+it is written with [Markdown](https://daringfireball.net/projects/markdown/) 
+and is deployed with [MkDocs](https://www.mkdocs.org/) and uses 
 the *readthedocs* template.
 
 # Installation
@@ -15,7 +16,7 @@ pip install -r requirements.txt
 
 # Execute
 
-To execute this documentation
+To execute this documentation with the following command:
 
 ```
 mkdocs serve
@@ -23,8 +24,9 @@ mkdocs serve
 
 # See on the ReadTheDoc
 
-In order to view this documentation on Internet with the ReadTheDocs 
-service, please, check out http://rackio-framework.rtfd.io/
+In order to view this documentation on Internet with the 
+[ReadTheDocs](https://readthedocs.org/) service, please, check out 
+[http://rackio-framework.rtfd.io/](http://rackio-framework.rtfd.io/)
 
 # Status
 
