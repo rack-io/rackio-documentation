@@ -1,4 +1,9 @@
 site_name: Rackio
+site_description: 'Documentation for Rackio, the Python Framework for Automation and Control.'
+site_url: 'http://rackio-framework.rtfd.io/'
+site_author: https://github.com/rack-io/rackio-documentation/graphs/contributors
+repo_url: http://github.com/rack-io/rackio-framework
+remote_branch: master
 nav:
   - Home: index.md
   - Getting Started: cli.md
@@ -13,6 +18,5 @@ nav:
   - Events: event.md
   - Admin: admin.md
 
-theme: readthedocs
-repo_url: http://github.com/rack-io/rackio-framework
-site_description: 'Documentation for Rackio, the Python Framework for Automation and Control.'
+theme: material
+
