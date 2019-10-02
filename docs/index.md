@@ -32,25 +32,9 @@ Rackio doesn't come with a default HMI, since it is a server application framewo
 
 ---
 
-## Requirements
-
-- Python 3.6+
-- falcon 
-- pyBigParser
-- peewee
-- python-statemachine
-
-# Installation
-
-```
-pip install Rackio
-```
----
-
 ## Built-In Batteries
 
-Rackio comes with some built-in features that .
-Rackio comes with some out of the box that features let you start creating rapid and fast coding prototypes and Rackio applications, here is a list of these features:
+Rackio comes with some out of the box features that let you start creating rapid and fast coding prototypes and Rackio applications, here is a list of these features:
 
 * Tag based engine
 * Custom Models Definitions
@@ -65,7 +49,7 @@ Rackio comes with some out of the box that features let you start creating rapid
 * RESTful API
 * Web Based Admin
 
-Each of these features are presented as declarative classes so you can define how your application will behave and interact with-in its own internals.
+Each of these features are presented as declarative decorators, application methods and classes so you can define how your application will behave and interact with-in its own internals.
 
 ---
 
@@ -78,7 +62,7 @@ Each of these features are presented as declarative classes so you can define ho
     </p>
 </div>
 
-Rackio is focuses on new trend technologies and promotes web development for automation applications, all of the Rackio Features can be access by using the RESTful API, being Rackio a service or backend application, you can define your custom views or HMI with other front-end technologies.
+Rackio is focuses on new trend technologies and promotes web development for automation applications, all of the Rackio Features can be accessed by using the RESTful API, being Rackio a service or backend application, you can define your custom views or HMI with other front-end technologies.
 
 ---
 

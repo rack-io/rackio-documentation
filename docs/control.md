@@ -88,6 +88,6 @@ app.append_rule(rule1)
 
 ```
 
-Once you execute your "app", the ControlWorker will handle all defined controls and rules in set time interval of 0.1 seconds.
+Once you execute your `app`, the ControlWorker will handle all defined controls and rules in set time interval of 0.1 seconds.
 
 ---
