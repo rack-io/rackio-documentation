@@ -20,6 +20,15 @@ nav:
 
 theme: material
 
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/rack-io/rackio-framework'
+
+google_analytics:
+  - 'UA-125411854-3'
+  - 'auto'
+
 markdown_extensions:
   - codehilite
 
