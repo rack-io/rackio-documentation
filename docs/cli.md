@@ -3,7 +3,7 @@
 
 You can start coding with Rackio fast and simple, having Python 3 installed you can install Rackio with `pip`.
 
-# Installation
+## Installation
 
 ```
 pip install Rackio
