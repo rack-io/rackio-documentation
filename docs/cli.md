@@ -31,23 +31,10 @@ from rackio import Rackio, TagEngine
 
 app = Rackio()
 tag_engine = TagEngine()
-```
-
-## Tags definitions
-
-These are two on the main core components of Rackio. With these you can define tags before running your app.
-
-```python
-
-tag_engine.set_tag("RAND1", "float")
-tag_engine.set_tag("RAND2", "float")
-tag_engine.set_tag("T1", "float")
-tag_engine.set_tag("T2", "float")
-tag_engine.set_tag("T3", "float")
 
 if __name__ == "__main__":
 
     app.run()
 ```
 
-Tags are unique identifiers for a data point within your application, it is used to receive or send data in a acquisition process or to read or write data in an inner Rackio process, this way you can share data resources between modules and componentes in your application.
+These are two on the main core components of Rackio. With these you can define tags before running your app.
