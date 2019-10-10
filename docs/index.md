@@ -12,7 +12,7 @@
 Rackio is a modern Python Framework for microboard automation and control applications development, it uses a declarative syntax to set your own applications in a bit.
 
 It was developed to bring automation and control engineers the capability of developing high end industrial solutions. Inspired by [Django](https://www.djangoproject.com), [Flask](https://palletsprojects.com/p/flask/) and [Scrapy](https://scrapy.org/), Rackio comes with built-in batteries to make common operations and tasks in the automation field.
-You can fork the source right on [Github-Rackio Framework](https://github.com/rack-io/rackio-framework)
+You can fork the source right on [Github](https://github.com/rack-io/rackio-framework).
 ---
 
 ## Why Rackio?
@@ -28,7 +28,7 @@ With Rackio you can build complex and advanced automation and control architectu
 
 ## So, where is the HMI?
 
-Rackio doesn't come with a default HMI, since it is a server application framework, it comes with an API so you can connect your custom HMI developed in any technology you want. On the other hand, Rackio comes with an Admin Web Interface (inspired by Django), so you can monitor and set Tags value, Trends, Alarms, Events and much more.
+Rackio doesn't come with a default HMI, since it is a server application framework, it comes with an API so you can connect your custom HMI developed in any technology you choose. On the other hand, Rackio comes with an Admin Web Interface (inspired by Django), so you can monitor and set features suchas Tags value, Trends, Alarms, Events and much more.
 
 ---
 
@@ -66,6 +66,14 @@ Rackio is focuses on new trend technologies and promotes web development for aut
 
 ---
 
-# Support
+## Support
 
-You can ask questions and join the development discussion:
+You can follow us on [github](https://github.com/rack-io) or Twitter.
+
+If you have some feedback about our framework, let us know through our [email](mailto:rackio.framework@outlook.com).
+
+## Donations
+
+We make these tools for free, but it takes hours of work to improve the framework every day. You can send us some bucks to promote our development process.
+
+[paypal](https://paypal.me/carrasquel)

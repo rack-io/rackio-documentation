@@ -37,4 +37,4 @@ if __name__ == "__main__":
     app.run()
 ```
 
-These are two on the main core components of Rackio. With these you can define tags before running your app.
+These are two of the main core components of Rackio. With these you can define tags before running your app.
