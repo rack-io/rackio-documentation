@@ -96,7 +96,7 @@ class TwoStep(RackioStateMachine):
         
         tag_engine = self.tag_engine
         logger_engine = self.logger_engine
-        query_logger = query_logger
+        query_logger = self.query_logger
 ```
 
 The `tag_engine` is an instance of the tag data engine, you can use it to read or write tags, this way you can perform transitions from another rackio process or even better control the execution of another rackio process.
