@@ -34,6 +34,7 @@ nav:
     - Rackio: api/rackio-api.md
     - TagEngine: api/engine-api.md
     - Controls: api/controls-api.md
+    - State Machine: api/state-api.md
 
 extra:
   social:
