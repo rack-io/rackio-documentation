@@ -22,6 +22,7 @@ nav:
     - Admin: admin.md
   - API Reference:
     - Rackio: rackio-api.md
+    - TagEngine: engine-api.md
 
 theme: material
 
