@@ -33,6 +33,7 @@ nav:
   - API Reference:
     - Rackio: api/rackio-api.md
     - TagEngine: api/engine-api.md
+    - Controls: api/controls-api.md
 
 extra:
   social:
