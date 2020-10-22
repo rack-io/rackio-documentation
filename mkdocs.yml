@@ -1,33 +1,38 @@
-site_name: Rackio
+site_name: Rackio Framework
 site_description: 'Documentation for Rackio, the Python Framework for Automation and Control.'
 site_url: 'http://rackio-framework.rtfd.io/'
 site_author: https://github.com/rack-io/rackio-documentation/graphs/contributors
 repo_url: http://github.com/rack-io/rackio-documentation
 remote_branch: master
 
-nav:
-  - Getting Started:
-    - Home: index.md
-    - Getting Started: cli.md
-  - User Guide:
-    - Data Repository: data.md
-    - Controls and Rules: control.md
-    - State Machine: state.md
-    - Continous Tasks: task.md
-    - Logging: logging.md
-    - Alarms: alarm.md
-    - Observers: observer.md
-    - Scheduler: scheduler.md
-    - Events: event.md
-    - Admin: admin.md
-  - API Reference:
-    - Rackio: rackio-api.md
-    - TagEngine: engine-api.md
+copyright: Copyright &copy; 2019 - 2020 Nelson Carrasquel
 
 extra_css:
   - css/custom.css
 
-theme: material
+theme:
+  name: material
+  features:
+    - navigation.tabs
+
+nav:
+  - Getting Started:
+    - Home: index.md
+    - Getting Started: started/cli.md
+  - User Guide:
+    - Data Repository: guide/data.md
+    - Controls and Rules: guide/control.md
+    - State Machine: guide/state.md
+    - Continous Tasks: guide/task.md
+    - Logging: guide/logging.md
+    - Alarms: guide/alarm.md
+    - Observers: guide/observer.md
+    - Scheduler: guide/scheduler.md
+    - Events: guide/event.md
+    - Admin: guide/admin.md
+  - API Reference:
+    - Rackio: api/rackio-api.md
+    - TagEngine: api/engine-api.md
 
 extra:
   social:
