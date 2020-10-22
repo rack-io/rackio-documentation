@@ -38,3 +38,5 @@ if __name__ == "__main__":
 ```
 
 These are two of the main core components of Rackio. With these you can define tags before running your app.
+
+A `Rackio` instance works as a singleton, so you can define and set your application in diferent modules of your application, the same behaviour for a `TagEngine` instance so you can read and write tags in each part of your application.
