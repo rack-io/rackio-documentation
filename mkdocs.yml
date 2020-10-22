@@ -24,15 +24,15 @@ nav:
     - Rackio: rackio-api.md
     - TagEngine: engine-api.md
 
+extra_css:
+  - css/custom.css
+
 theme: material
 
 extra:
   social:
     - type: 'github'
       link: 'https://github.com/rack-io'
-
-extra_css:
-    - css/custom.css
 
 google_analytics:
   - 'UA-125411854-3'
@@ -42,4 +42,3 @@ markdown_extensions:
   - admonition
   - codehilite
   - mkautodoc
-
