@@ -4,19 +4,24 @@ site_url: 'http://rackio-framework.rtfd.io/'
 site_author: https://github.com/rack-io/rackio-documentation/graphs/contributors
 repo_url: http://github.com/rack-io/rackio-documentation
 remote_branch: master
+
 nav:
-  - Home: index.md
-  - Getting Started: cli.md
-  - Data Repository: data.md
-  - Controls and Rules: control.md
-  - State Machine: state.md
-  - Continous Tasks: task.md
-  - Logging: logging.md
-  - Alarms: alarm.md
-  - Observers: observer.md
-  - Scheduler: scheduler.md
-  - Events: event.md
-  - Admin: admin.md
+  - Getting Started:
+    - Home: index.md
+    - Getting Started: cli.md
+  - User Guide:
+    - Data Repository: data.md
+    - Controls and Rules: control.md
+    - State Machine: state.md
+    - Continous Tasks: task.md
+    - Logging: logging.md
+    - Alarms: alarm.md
+    - Observers: observer.md
+    - Scheduler: scheduler.md
+    - Events: event.md
+    - Admin: admin.md
+  - API Reference:
+    - Rackio: rackio-api.md
 
 theme: material
 
@@ -30,5 +35,7 @@ google_analytics:
   - 'auto'
 
 markdown_extensions:
+  - admonition
   - codehilite
+  - mkautodoc
 
