@@ -19,6 +19,7 @@ nav:
   - Getting Started:
     - Home: index.md
     - Getting Started: started/cli.md
+    - Developing an Application: app/developing.md
   - User Guide:
     - Data Repository: guide/data.md
     - Controls and Rules: guide/control.md
