@@ -12,7 +12,7 @@ pep562==1.0
 Pygments==2.4.2
 pymdown-extensions==6.1
 PyYAML==5.1.2
-six==1.12.0
+six==1.15.0
 tornado==6.0.3
 mkautodoc==0.1.0
-Rackio==0.9.8
+Rackio==1.0.2
